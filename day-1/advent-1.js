@@ -12,7 +12,6 @@ const fuelCalculator = mass => {
   }
 };
 
-fuelCalculator(1969);
 
 const fuelCounterUpper = moduleMassArray => {
   const fuelReducer = (accumulator, currentVal) =>
