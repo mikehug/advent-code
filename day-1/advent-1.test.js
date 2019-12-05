@@ -1,7 +1,5 @@
 const { fuelCalculator, fuelCounterUpper } = require('./advent-1');
 
-fuelCalculator(12);
-
 test('fuel calculation for mass 12', () => {
   expect(fuelCalculator(12)).toBe(2);
 });
